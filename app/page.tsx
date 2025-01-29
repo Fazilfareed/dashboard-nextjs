@@ -5,6 +5,8 @@ import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
+import NavLinks from '@/app/ui/dashboard/nav-links';
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
@@ -47,6 +49,9 @@ export default function Page() {
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing mobile version"
           />
+        </div>
+        <div>
+          <NavLinks/>
         </div>
       </div>
     </main>
